@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+</head>
+<body>
+    <h2>Calculator</h2>
+
+    <form action="" method="post" id="calc">
+
+    <label for="Nr1">Primul numar</label>
+    <input type="number" name="Nr1" id="Nr1" required>
+    <p>
+
+    </p>
+
+    <label for="op">Operatia</label>
+    <input type="text" name="operatia" id="op" required>
+
+    <p>
+        
+    </p>
+
+    <label for="Nr2">Al doilea numar</label>
+    <input type="number" name="Nr2" id="Nr2" required>
+
+    
+
+    <p>
+
+    </p>
+    <button type="submit" class="btn" id="printresult" onclick="calc(Nr1, op, Nr2, result)">Calculeaza</button>
+    <p id="result" >Rezultat</p>
+
+
+    </form>
+
+
+    <script src="calc.js"></script>
+</body>
+</html>
